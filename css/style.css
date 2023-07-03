@@ -12,10 +12,9 @@ body {
 
 #Sun {
     position: absolute;
-    left: calc(50% - 75px);
-    top: calc(50% - 75px);
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    left: calc(50% - 90px);
+    top: calc(50% - 90px);
     animation: Cycle 4s linear infinite;
 }
 
@@ -33,30 +32,68 @@ body {
 #Mercury {
     animation-duration: 2s;
     width: 30px;
-    height: 220px;
+    height: 250px;
     left: calc(50% - 15px);
-    top: calc(50% - 110px);
+    top: calc(50% - 125px);
 }
 
 #Venus {
     animation-duration: 5s;
     width: 50px;
-    height: 350px;
+    height: 360px;
     left: calc(50% - 25px);
-    top: calc(50% - 175px);
+    top: calc(50% - 180px);
 }
 
 #Earth {
     animation-duration: 8s;
-    height: 100%;
-    left: calc(50% - 72px);
+    width: 80px;
+    height: 500px;
+    left: calc(50% - 40px);
+    top: calc(50% - 250px);
+}
+
+#Mars {
+    animation-duration: 10s;
+    width: 46px;
+    height: 600px;
+    left: calc(50% - 23px);
+    top: calc(50% - 300px);
+}
+
+#Jupiter {
+    animation-duration: 15s;
+    width: 110px;
+    height: 1000px;
+    left: calc(50% - 55px);
+    top: calc(50% - 500px);
+}
+
+#Saturn {
+    animation-duration: 18s;
+    width: 220px;
+    height: 1300px;
+    left: calc(50% - 110px);
+    top: calc(50% - 650px);
+}
+
+#Uranus {
+    animation-duration: 20s;
+    width: 90px;
+    height: 1600px;
+    left: calc(50% - 45px);
+    top: calc(50% - 800px);
+}
+
+#Neptune {
+    animation-duration: 25s;
+    width: 86px;
+    height: 1900px;
+    left: calc(50% - 43px);
+    top: calc(50% - 950px);
 }
 
 @keyframes Cycle {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
